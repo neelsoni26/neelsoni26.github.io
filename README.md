@@ -14,4 +14,4 @@ Welcome to my interactive cybersecurity portfolio built using HTML, CSS, and Jav
 ## Preview
 
 You can view the live version of this portfolio on GitHub Pages:
-[Live Preview](https://neelsoni26.github.io/portfolio)
+[Live Preview](https://neelsoni26.github.io/)
