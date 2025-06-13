@@ -228,12 +228,17 @@ color: var(--terminal-success);
 margin-bottom: 12px;
 }
 
+/* Ensure typewriter text wraps properly */
 .typewriter {
-border-right: 2px solid var(--terminal-accent);
-white-space: nowrap;
-overflow: hidden;
-animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+    width: 100%;
 }
+
+@media (max-width: 768px) {
+    .intro-text p.typewriter {
+        font-size: clamp(0.9rem, 4vw, 1rem);
+    }
+}
+
 
 @keyframes typing {
 from {
